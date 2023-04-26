@@ -1,4 +1,4 @@
-![Jekyll](https://user-images.githubusercontent.com/2342458/227201223-77cd42ef-ef91-405d-ad46-c491f6dbda27.png)
+![React](https://user-images.githubusercontent.com/2342458/234303761-7e0066a0-f043-4302-8784-756614761917.png)
 # Kinsta - Hello World - React
 
 An example of how to deploy a React App on Kinsta App Hosting services.
@@ -29,4 +29,5 @@ When deploying an application, Kinsta automatically creates a web process based 
 Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit) the `npm install` and `npm build` commands are run.
 
 ## What is React
-React is a popular JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update the UI in response to data changes. More information is available on the [React](https://react.dev/) website.
+React is a popular JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update the UI in response to data changes. 
+More information is available on the [React](https://react.dev/) website.
