@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #1c1819;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+
+  min-height: 100vh;
+  color: #a68b85;
+
+  background-image: url(https://i.imgur.com/CzmE8sy.png);
+  background-size: cover;
+  font-family: Inter, sans-serif;
+}
+.reckless {
+  font-family: Reckless Neue;
 }
